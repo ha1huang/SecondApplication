@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepNumView">
+        <attr name="radiusView" format="dimension" />
+        <attr name="heightView" format="dimension" />
+        <attr name="colorDevice" format="color" />
+        <attr name="colorStep" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+
+    <!-- 仪表盘自定义属性 -->
+    <attr name="color_dial_lower" format="color" />
+    <attr name="color_dial_middle" format="color" />
+    <attr name="color_dial_high" format="color" />
+    <attr name="stroke_width_dial" format="dimension" />
+    <declare-styleable name="ClockView">
+        <attr name="color_dial_lower" />
+        <attr name="color_dial_middle" />
+        <attr name="color_dial_high" />
+        <attr name="stroke_width_dial" />
+
+    </declare-styleable>
+
+</resources>
